@@ -1,13 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Harjit
- * Date: 28-9-2018
- * Time: 08:59
- */
-
-?>
-
 <!doctype html>
 
 <html lang="en">
@@ -22,33 +12,43 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 </head>
-<nav class="navbar navbar-default">
-        <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+<nav>
+    <div class="topnav">
+    <div class="topnav-left">
+        <div id="myLinks">
+
+        <li><a href="#">Home</a></li>
             <li><a href="#">Memory</a></li>
             <li><a href="#">Getallenrij</a></li>
             <li><a href="#">PicturePuzzle</a></li>
+            <div class="topnav-right">
+                <a href="#">
+                    <img src="img/sign-in.png" alt="sign-in" style="width:42px;height:42px;border:0;">
+
+                </a>
+            </div>
+        </div>
+    </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
         </ul>
 </nav>
 <body>
-
-
 <img src="img/merylstreep.jpg" alt="merylstreep">
 <img src="img/merylstreep1.png" alt="merylstreep">
 <h2>Meryl Streep</h2>
-<br>
+
 <p>Mary Louise "Meryl" Streep (born June 22, 1949), is an American actress. Often described as the "best actress of her generation",[1][2][3] Streep is particularly known for her versatility and accent adaptation. Nominated for a record 21 Academy Awards, she has won three.
     Streep has also received 31 Golden Globe nominations, winning eight—more nominations and wins than any other actor.
     She has also been nominated for fifteen British Academy Film Awards, and seventeen Screen Actors Guild Awards, winning two each.
     Streep made her stage debut in Trelawny of the Wells in 1975. In 1976, she received a Tony Award nomination for Best Featured Actress in a Play for 27 Wagons Full of Cotton. In 1977, she made her screen debut in the television film The Deadliest Season, and also made her film debut in Julia.
     In 1978, she won an Emmy Award for her role in the mini-series Holocaust, and received her first Academy Award nomination for The Deer Hunter. Streep went on to win Best Supporting Actress for Kramer vs. Kramer (1979), and Best Actress for Sophie's Choice (1982) and The Iron Lady (2011).
 </p>
-<br>
-<br>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SiikXuGWDCQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<script src="js/scripts.js"></script>
-<br>
-<br>
+
 <table>
     <tr>
         <th colspan="3">Filmografie als acteur</th>
@@ -74,10 +74,9 @@
         <td>as Anne Marie</td>
     </tr>
 </table>
-<br>
-<br>
 <footer>
     Dit is de footer
 </footer>
+<script src="js/scripts.js"></script>
 </body>
 </html>
